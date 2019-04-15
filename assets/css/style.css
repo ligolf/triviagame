@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: rgb(245, 3, 3);
+    background: url("../images/gt1.jpg");
+    
+
+}
+
+
+.head {
+
+    color: rgb(245, 3, 3);
+    
+}
+
+h1  {
+
+    color: rgb(245, 3, 3);
+    font-weight: 1000;
+    font-size: 32px;
+
+}
+
+h2  {
+
+    color: rgb(245, 3, 3);
+    font-weight: 1000;
+    font-size: 22px;
+
+}
+
+p  {
+
+    color: rgb(245, 3, 3);
+    font-weight: 1000;
+    font-size: 32px;
+
+}
+
+.questions {
+
+    background-blend-mode: lighten;
+    padding-left: 70px;
+    background-color: #ffffff;
+    font-weight: 800;
+    color: rgb(245, 3, 3);
+}
+
+#submit {
+
+    background-color: rgb(247, 32, 3);
+    font-size: 28px;
+    color: #ffffff;
+}
+
+#display {
+
+    color: #ffffff;
+
+
+}

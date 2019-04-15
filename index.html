@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Car Trivia</title>
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+
+                <!-- header -->
+                <div class="head">
+                    <h1>Car Trivia</h1>
+                </div>
+
+                <!-- displays countdown timer -->
+
+                <p>Timer:</p>
+                <div id="display">
+
+                </div>
+
+                <!-- this is the questions being asked -->
+                <form class="questions">
+                    <h4>What year was the Mustang first available?</h4>
+
+                    <input class="W" type="radio" name="mustang" value="W"> 1962<br>
+                    <input class="W" type="radio" name="mustang" value="W"> 1968<br>
+                    <input class="C" type="radio" name="mustang" value="C"> 1964
+
+                    <h4>What was Pontiacs competition for the Chevy Camaro?</h4>
+
+                    <input class="W" type="radio" name="pontiac" value="W"> ThunderBird<br>
+                    <input class="C" type="radio" name="pontiac" value="C"> Firebird<br>
+                    <input class="W" type="radio" name="pontiac" value="W"> GTO
+
+                    <h4>What was the first car that Henry Ford developed and sold?</h4>
+
+                    <input class="W" type="radio" name="ford" value="W"> Model A<br>
+                    <input class="W" type="radio" name="ford" value="W"> Model X<br>
+                    <input class="C" type="radio" name="ford" value="C"> Model T
+
+                    <h4>What do you currently add to the air conditioning unit to cool you car?</h4>
+
+                    <input class="W" type="radio" name="air" value="W"> Freon<br>
+                    <input class="W" type="radio" name="air" value="W"> ice cubes<br>
+                    <input class="C" type="radio" name="air" value="C"> R134a<br>
+
+                    <h4>What is another type of fuel that some vehicles run off of?</h4>
+
+                    <input class="C" type="radio" name="fuel" value="C"> Ethenol<br>
+                    <input class="W" type="radio" name="fuel" value="W"> Orange Juice<br>
+                    <input class="W" type="radio" name="fuel" value="W"> Vodka<br>
+                </form>
+
+                <br>
+                <button id="submit">Submit</button>
+                <br>
+            </div>
+            <div class="col-md-2">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
