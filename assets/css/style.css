@@ -55,7 +55,10 @@ p  {
 
 #display {
 
-    color: #ffffff;
+
+    color: rgb(245, 3, 3);
+    font-size: 26px;
+    font-weight: 800;
 
 
 }
